@@ -6,6 +6,10 @@ use App\Livewire\Settings\Profile;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    return view('view');
+});
+
+Route::get('/index', function () {
     return view('welcome');
 })->name('home');
 
